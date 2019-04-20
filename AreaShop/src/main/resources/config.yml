@@ -58,10 +58,10 @@ metricSymbols:
 # └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 # Timeformat to use on the signs, default is like '30-06 14:52', US format: 'MM-dd KK:mm a'.
 # Search for 'java SimpleDateFormat' for more options and documentation.
-timeFormatSign: 'dd-MM HH:mm'
+timeFormatSign: 'dd-MM HH:mm:ss'
 # Timeformat used in the chat, default is like '30 june 2014 14:52', US format: 'MMMMMMMMMMMMMMMMM dd yyyy KK:mm a'.
 # Search for 'java SimpleDateFormat' for more options and documentation.
-timeFormatChat: 'dd MMMMMMMMMMMMMMMMM yyyy HH:mm'
+timeFormatChat: 'dd MMMMMMMMMMMMMMMMM yyyy HH:mm:ss'
 # Time indicators, used for specifing time periods (for example rent duration).
 seconds: [s, sec, secs, second, seconds]
 minutes: [m, min, mins, minute, minutes]
@@ -109,14 +109,14 @@ sendStats: true
 # If enabled it will check for updates when loading the plugin, it will never download files, it will only notify about it.
 checkForUpdates: true
 # Use colors when sending messages to console and log files.
-useColorsInConsole: false
+useColorsInConsole: true
 # Use tellraw style messages, which can be interacted with by players
 useFancyMessages: true
 # Update all region flags and signs after starting the plugin.
 # This ensures that changes to the config are directly visible after restarting the server.
 updateRegionsOnStartup: true
 # Enables / disables debug messages in the console, could be useful to figure out where errors come from.
-debug: false
+debug: true
 # Version of the config, do not change!
 version: ${project.version}
 # Maximum number of blocks to save to or restore from a .schemetic file.
